@@ -1,6 +1,12 @@
 package edu.developpementdigital.constructors;
 
 public class Animal {
+
+    public   Animal(){
+
+
+    }
+
     protected  String nom;
     protected String nouriture;
 

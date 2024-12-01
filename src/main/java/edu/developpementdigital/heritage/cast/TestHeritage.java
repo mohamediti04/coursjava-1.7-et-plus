@@ -1,5 +1,7 @@
 package edu.developpementdigital.heritage.cast;
 
+import edu.developpementdigital.constructors.Animal;
+
 public class TestHeritage {
 
 
@@ -17,7 +19,16 @@ public class TestHeritage {
 
         Person personProfessor=new Professor();
         Professor professor1=(Professor) personProfessor;
-       // professor1.getMaxSalary();
+        professor1.getMaxSalary();
+
+
+           // System.out.println();
+        if(student instanceof Person){
+            System.out.println("Person is my Parent class");
+        }else {
+            System.out.println("Person is not my Parent classes");
+        }
+
 
 
 
